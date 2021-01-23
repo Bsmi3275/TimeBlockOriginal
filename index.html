@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <main class="hero">
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <br />
+      <p class="lead">"A simple calendar app for scheduling your work day" (their words, not mine!!)</p>
+      <section id="day"></section>
+    </header>
+    
+    <div class="container">
+      <div id="hour-9" class="row">
+        <div class="col-md-2 border border-dark labels">
+          9:00:00-9:59:59
+        </div>
+        <div id="hour000" class="col-md-8 border border-dark">
+          <textarea class="description"></textarea>
+        </div>
+        <div class="col-md-2 border border-dark btnCol">
+          <button id="button-zero" type="button" class="btn btn-primary saveBtn">Save</button>
+        </div>
+      </div>
+      <div id="hour-10" class="row">
+        <div class="col-md-2 border border-dark labels">
+          10:00:00-10:59:59
+        </div>
+        <div id="hour001" class="col-md-8 border border-dark">
+          <textarea class="description"></textarea>
+        </div>
+        <div class="col-md-2 border border-dark btnCol">
+          <button id="button-one" type="button" class="btn btn-primary saveBtn">Save</button>
+        </div>
+      </div>
+      <div id="hour-11" class="row">
+        <div class="col-md-2 border border-dark labels">
+          11:00:00-11:59:59
+        </div>
+        <div id="hour002" class="col-md-8 border border-dark">
+          <textarea class="description"></textarea>
+        </div>
+        <div class="col-md-2 border border-dark btnCol">
+          <button id="button-two" type="button" class="btn btn-primary saveBtn">Save</button>
+        </div>
+      </div>
+      <div id="hour-12" class="row">
+        <div class="col-md-2 border border-dark labels">
+          12:00:00-12:59:59
+        </div>
+        <div id="hour003" class="col-md-8 border border-dark">
+          <textarea class="description"></textarea>
+        </div>
+        <div class="col-md-2 border border-dark btnCol">
+          <button id="button-three" type="button" class="btn btn-primary saveBtn">Save</button>
+        </div>
+      </div>
+      <div id="hour-13" class="row">
+        <div class="col-md-2 border border-dark labels">
+          13:00:00-13:59:59
+        </div>
+        <div id="hour004" class="col-md-8 border border-dark">
+          <textarea class="description"></textarea>
+        </div>
+        <div class="col-md-2 border border-dark btnCol">
+          <button id="button-four" type="button" class="btn btn-primary saveBtn">Save</button>
+        </div>
+      </div>
+      <div id="hour-14" class="row">
+        <div class="col-md-2 border border-dark labels">
+          14:00:00-14:59:59
+        </div>
+        <div id="hour005" class="col-md-8 border border-dark">
+          <textarea class="description"></textarea>
+        </div>
+        <div class="col-md-2 border border-dark btnCol">
+          <button id="button-five" type="button" class="btn btn-primary saveBtn">Save</button>
+        </div>
+      </div>
+      <div id="hour-15" class="row">
+        <div class="col-md-2 border border-dark labels">
+          15:00:00-15:59:59
+        </div>
+        <div id="hour006" class="col-md-8 border border-dark">
+          <textarea class="description"></textarea>
+        </div>
+        <div class="col-md-2 border border-dark btnCol">
+          <button id="button-six" type="button" class="btn btn-primary saveBtn">Save</button>
+        </div>
+      </div>
+      <div id="hour-16" class="row">
+        <div class="col-md-2 border border-dark labels">
+          16:00:00-16:59:59
+        </div>
+        <div id="hour007" class="col-md-8 border border-dark">
+          <textarea class="description"></textarea>
+        </div>
+        <div class="col-md-2 border border-dark btnCol">
+          <button id="button-seven" type="button" class="btn btn-primary saveBtn">Save</button>
+        </div>
+      </div>
+      <div id="hour-17" class="row">
+        <div class="col-md-2 border border-dark labels">
+          17:00:00-17:59:59
+        </div>
+        <div id="hour008" class="col-md-8 border border-dark">
+          <textarea class="description"></textarea>
+        </div>
+        <div class="col-md-2 border border-dark btnCol">
+          <button id="button-eight" type="button" class="btn btn-primary saveBtn">Save</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  
+</html>
